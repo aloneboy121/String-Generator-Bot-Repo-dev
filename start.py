@@ -20,15 +20,15 @@ This handy tool allows you to effortlessly generate sessions for both Pyrogram a
 Whether you're developing Telegram bots or automation scripts, our bot has got you covered. 
 Dive in and start generating sessions with ease!
 
-Made with ❤️ by [Team SPY](https://t.me/dev_gagan)""",
+Made with ❤️ by [Alone Boy](https://t.me/alonedada143)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤 𝖲𝖳𝖱𝖨𝖭𝖦", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton(" Group", url="https://t.me/dev_gagan"),
-                    InlineKeyboardButton("Channel", url="https://t.me/dev_gagan")
+                    InlineKeyboardButton(" Group", url="https://t.me/stringvalabot"),
+                    InlineKeyboardButton("Channel", url="https://t.mestringvala")
                 ]
             ]
         )
