@@ -26,7 +26,7 @@
             "required": true
         },
         "OWNER_ID": {
-            "description": "Telegram id of the person who will known as owner of the bot.",
+            "description": "7306229091",
             "required": true
         }, 
         "API_HASH": {
