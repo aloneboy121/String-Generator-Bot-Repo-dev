@@ -10,19 +10,19 @@
   ],
     "env": {
         "BOT_TOKEN": {
-            "description": "Get this value from @BotFather",
+            "description": "7494096178:AAFnQJJyzv7cbzIw0dduh2mmxKzJ3JR1HXQ",
             "required": true
         },  
         "MUST_JOIN": {
-            "description": "Username of a group or channel for which you want to set force sub.(without @)",
+            "description": "stringvala",
             "required": true      
         }, 
         "MONGO_URL": {
-            "description": "mongo db url here",
+            "description": "mongodb+srv://prakashsalvi2121:jD8FaX4dNhTNxct7@sring.t4s3gsn.mongodb.net/?retryWrites=true&w=majority&appName=sring",
             "required": true
         },
         "API_ID": {
-            "description": "telegram api id here",
+            "description": "23480585",
             "required": true
         },
         "OWNER_ID": {
@@ -30,7 +30,7 @@
             "required": true
         }, 
         "API_HASH": {
-            "description": "telegram api hash here",
+            "description": "23af64c0a4ba8c1f0c04e9be07d0ba68",
             "required": true
         }
     },
